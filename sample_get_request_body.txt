@@ -1,0 +1,18 @@
+GET /fivedaysforcast?latitude=40.730610&longitude=-73.935242&lang=EN HTTP/1.1
+X-Rapidapi-Key: 
+X-Rapidapi-Host: open-weather13.p.rapidapi.com
+Host: open-weather13.p.rapidapi.com
+
+
+
+GET /latlon?latitude=40.730610&longitude=-73.935242&lang=EN HTTP/1.1
+X-Rapidapi-Key:
+X-Rapidapi-Host: open-weather13.p.rapidapi.com
+Host: open-weather13.p.rapidapi.com
+
+
+
+GET /city?city=new%20york&lang=EN HTTP/1.1
+X-Rapidapi-Key: 
+X-Rapidapi-Host: open-weather13.p.rapidapi.com
+Host: open-weather13.p.rapidapi.com
