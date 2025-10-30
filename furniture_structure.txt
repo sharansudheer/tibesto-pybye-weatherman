@@ -1,0 +1,36 @@
+fastapi-json-tree/
+│
+├── app/
+│   ├── main.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── routes_json_tree.py
+│   │   ├── dependencies.py
+│   │   └── error_handlers.py
+│   │
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── logger.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── json_tree_model.py
+│   │   └── schemas/
+│   │       ├── __init__.py
+│   │       └── tree_schema.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   └── tree_service.py
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       └── json_utils.py
+│
+├── tests/
+│   ├── test_tree_api.py
+│   └── test_tree_service.py
+│
+├── requirements.txt
+└── README.md
